@@ -37,6 +37,7 @@ def gcd(a, b):
     
 # RSA algorithm
 #####################################################################
+# STEPS
 #    1) find two primes p, q
 #    2) N = p * q
 #    3) calculate phi(N)
@@ -45,6 +46,7 @@ def gcd(a, b):
 #    6) convert message into integer form
 #    7) encrypt
 #    8) decrypt
+#    9) convert decrypted form to character message
 
 def rsa(msg):
     # STEP 1
